@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# builds
+backend/dist/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# environment (copy the .env.example files instead)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# uploads (runtime data)
+backend/uploads/**/*
+!backend/uploads/**/.gitkeep
+
+# misc
+.DS_Store
+coverage/
+npm-debug.log*
+.claude/
